@@ -38,7 +38,7 @@ hi SpecialKey       guifg=#B2D892 guibg=none gui=none ctermfg=150 ctermbg=none c
 "hi DiffAdd          guibg=#252553 gui=none ctermbg=235 cterm=none
 "hi DiffText         guibg=#66326C gui=none ctermbg=241 cterm=none
 "hi DiffDelete       guibg=#3F0007 gui=none ctermbg=52 cterm=none
- 
+
 hi DiffChange       guibg=none gui=none ctermbg=none cterm=none
 hi DiffAdd          guibg=none gui=none ctermbg=none cterm=none
 hi DiffText         guibg=none gui=none ctermbg=none cterm=none
