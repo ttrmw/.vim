@@ -49,6 +49,9 @@ command PullUp set rnu | GitGutterEnable
 " development.
 " autocmd BufWritePost * !bundle exec rake tmp:cache:clear
 "
-set backupdir=~/.vim/backup//
-set directory=~/.vim/swap//
-set undodir=~/.vim/undo//
+set backupdir=~/.vim/backup/
+set directory=~/.vim/swap/
+set undodir=~/.vim/undo/
+
+let g:ctrlp_max_files=20000
+let g:ctrlp_custom_ignore='.git$|\tmp$'
